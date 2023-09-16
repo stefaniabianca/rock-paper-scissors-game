@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+       <div class="playingArea">
+            <button class="gameOption">
+                <i class="fa-solid fa-hand-back-fist" id="rock"></i>
+            </button>
+
+            <button class="gameOption">
+                <i class="fa-solid fa-hand" id="paper"></i>
+            </button>
+
+            <button class="gameOption">
+                <i class="fa-solid fa-hand-scissors" id="scissors"></i>
+            </button>
+       </div>
+
+       <div class="resultContainer">
+
+       </div>
+
+       <div class="scoreContainer">
+        <h3>Score: <span class="updatedScore">0</span></h3>
+        <button class="resetScoreBtn">Reset score</button>
+       </div>
+    </section>
+    
+    <script
+        src="https://kit.fontawesome.com/c7d8ecc708.js"
+        crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
